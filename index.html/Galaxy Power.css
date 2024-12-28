@@ -1,0 +1,152 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	background-color: gray;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #333;
+    color: yellow;
+}
+
+header .logo {
+    font-size: 50px;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+	margin-left: 25%;
+	margin-right: 15%;
+	float: right;
+	font-size: 20px
+}
+header nav ul li a {
+    color: red;
+    text-decoration: none;
+	text-align: center;
+}
+header nav ul img{
+	margin-left: 10%;
+}
+
+.videos{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    background-color: gray;
+    color: yellow;
+}
+
+.hero {
+    background: url('') no-repeat center center/cover;
+    color: blue;
+    text-align: center;
+    padding: 100px 20px;
+}
+ main #clock   {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: #C0C0C0;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+ main #clock  {
+	font-size: 5em;
+}
+
+.oneword ol div dl dt {
+	font-size: 30px;
+	color: red;
+}
+.oneword ol div dl dd {
+	color: white;
+	font-size: 20px;
+}
+.oneword h1 {
+	color: yellow;
+	text-align: center;
+	font-size: 30px;
+}
+
+.pairagraph {
+	text-align: center;
+	font-size: 30px;
+	color: yellow;
+	
+}
+
+.pairagraphs{
+	color: white;
+	font-size: 30px;
+	
+}
+.features {
+    padding: 50px 20px;
+    text-align: center;
+}
+.table {
+	font-size: 20px;
+}
+
+.table  caption {
+	color: red;
+	background-color: white
+	
+}
+.table table tr th {
+	color: yellow;
+}
+
+.table table tr td {
+	color: white;
+}
+.features {
+	
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: gray;
+    color: red;
+}
+	
+.features .feature {
+    margin: 10px;
+	font-size: 20px;
+	color:yellow;
+}
+
+footer {
+    background-color: #333;
+    color: orange;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-media a {
+    color: orange;
+    margin: 0 10px;
+    text-decoration: none;
+}
+footer nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+footer nav ul li a {
+    color: yellow;
+    text-decoration: none;
+}
+ 
